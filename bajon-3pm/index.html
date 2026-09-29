@@ -10,69 +10,86 @@
 <meta property="og:title" content="¿Bajón después de almorzar? Mira primero tu almuerzo.">
 <meta property="og:description" content="3 ajustes simples para tu plato. Base, no ritual.">
 <meta property="og:url" content="https://guias.rebootlifestyle.com/bajon-3pm/">
+<meta property="og:image" content="https://guias.rebootlifestyle.com/bajon-3pm/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="facebook-domain-verification" content="4makziuo4jna8hf4zka4hbf2xdnb0r">
 <meta name="theme-color" content="#fbf9f3">
+<style>
+:root{--ink:#0f0f0f;--text:#232321;--cream:#fbf9f3;--paper:#ffffff;--yellow:#fae62b;--muted:#6b6a64;--line:#e6e1d4;--measure:34rem}
+@font-face{font-family:"MontFallback";src:local("Arial"),local("Helvetica Neue"),local("Helvetica");size-adjust:112%;ascent-override:86%;descent-override:22%}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-family:"Montserrat","MontFallback",system-ui,-apple-system,sans-serif;background:var(--cream);color:var(--text);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;text-rendering:optimizeLegibility}
+::selection{background:var(--yellow);color:var(--ink)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--measure);margin:0 auto;padding:24px 22px calc(128px + env(safe-area-inset-bottom))}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:12px;color:var(--muted)}
+.brand{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);display:flex;gap:8px;align-items:center}
+.brand .dot{width:22px;height:22px;border-radius:6px;background:var(--ink);color:var(--yellow);display:inline-flex;align-items:center;justify-content:center;font-size:12px;letter-spacing:0}
+h1,h2{color:var(--ink);text-wrap:balance}
+p,li{text-wrap:pretty}
+h1{font-size:clamp(28px,7.6vw,40px);line-height:1.14;font-weight:800;letter-spacing:-.022em;margin:28px 0 14px}
+.dek{font-size:18px;line-height:1.6;color:#3d3c38;margin-bottom:28px}
+.short{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 18px 8px}
+.short h2{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+.short h2 span{background:var(--yellow);padding:2px 6px;border-radius:3px}
+.short ol{list-style:none;counter-reset:s}
+.short li{counter-increment:s;position:relative;padding-left:30px;margin-bottom:12px;font-size:16px;line-height:1.6}
+.short li::before{content:counter(s);position:absolute;left:0;top:1px;width:20px;height:20px;border-radius:50%;background:var(--ink);color:var(--yellow);font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.early{display:inline-block;margin:18px 0 44px;padding:6px 0;color:var(--ink);font-weight:700;font-size:16px;line-height:1.45;text-decoration:none;background:linear-gradient(transparent 64%,var(--yellow) 64%);background-size:100% 100%}
+.early:active{opacity:.7}
+.lesson{padding-top:30px;margin-bottom:34px;border-top:1px solid var(--line)}
+.lesson .n{font-size:11px;font-weight:800;color:var(--muted);letter-spacing:.14em;text-transform:uppercase}
+.lesson h2{font-size:23px;line-height:1.25;letter-spacing:-.012em;margin:6px 0 12px}
+.lesson p{margin-bottom:14px}
+.lesson strong{color:var(--ink);background:linear-gradient(transparent 72%,rgba(250,230,43,.75) 72%)}
+.today{margin-top:4px;border-left:3px solid var(--ink);padding:2px 0 2px 14px;font-size:16px;line-height:1.55}
+.today b{display:block;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);margin-bottom:2px}
+.close{padding-top:34px;border-top:1px solid var(--line)}
+.close .k{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.close h2{font-size:26px;line-height:1.2;letter-spacing:-.015em;margin:6px 0 12px}
+.close p{margin-bottom:20px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:54px;text-align:center;background:var(--ink);color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:14px 18px;border-radius:12px;transition:transform .12s ease,background-color .12s ease}
+.btn::after{content:"→";color:var(--yellow);font-weight:800}
+.btn:active{transform:scale(.985);background:#2a2a28}
+.micro{display:block;text-align:center;font-size:13px;color:var(--muted);margin-top:12px}
+.disc{font-size:12px;line-height:1.55;color:var(--muted);margin-top:44px}
+.mock{width:196px;margin:4px auto 26px;border-radius:30px;background:var(--ink);padding:7px;border:1px solid #2c2c2a}
+.ms{position:relative;background:#171716;border-radius:24px;padding:26px 12px 14px;color:#fff;font-size:11px;line-height:1.45}
+.ms::before{content:"";position:absolute;top:8px;left:50%;width:54px;height:6px;margin-left:-27px;border-radius:6px;background:#000}
+.ms .h{font-weight:800;letter-spacing:.14em;font-size:9px;color:var(--yellow);margin-bottom:10px}
+.ms .c{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:10px;margin-bottom:10px}
+.ms .t{font-size:8px;text-transform:uppercase;letter-spacing:.12em;color:#b4b2a9}
+.ms .g{font-size:14px;font-weight:800;margin:3px 0}
+.ms .i{background:rgba(255,255,255,.09);border-radius:8px;padding:6px 8px;color:#d3d1c7;margin-top:8px}
+.ms .q{background:var(--yellow);color:var(--ink);border-radius:999px;padding:6px 10px;font-weight:700;display:inline-block}
+.sticky{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));max-width:calc(var(--measure) - 24px);margin:0 auto;background:var(--ink);color:#fff;border-radius:14px;padding:8px 8px 8px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;transform:translateY(160%);transition:transform .22s ease;z-index:50}
+.sticky.on{transform:none}
+.sticky span{font-size:13px;color:#d3d1c7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sticky a{flex:none;min-height:42px;display:inline-flex;align-items:center;background:var(--yellow);color:var(--ink);font-weight:800;font-size:14px;text-decoration:none;padding:0 14px;border-radius:10px}
+.sticky a:active{transform:scale(.97)}
+@media(min-width:700px){.wrap{padding-top:48px}h1{margin-top:36px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"></noscript>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0Y7BFP5PK"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G0Y7BFP5PK');</script>
 <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','2240890496716069');fbq('track','PageView');</script>
 <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wfhwti8zjj");</script>
-<style>
-:root{--ink:#0f0f0f;--cream:#fbf9f3;--paper:#ffffff;--yellow:#fae62b;--muted:#5f5e5a;--line:#e7e3d8}
-*{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{font-family:'Montserrat',system-ui,-apple-system,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65;font-size:17px}
-.wrap{max-width:640px;margin:0 auto;padding:28px 22px 120px}
-.brand{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;display:flex;gap:8px;align-items:center}
-.brand .dot{width:22px;height:22px;border-radius:6px;background:var(--ink);color:var(--yellow);display:inline-flex;align-items:center;justify-content:center;font-size:12px}
-.meta{font-size:13px;color:var(--muted);margin-top:22px}
-h1{font-size:29px;line-height:1.22;font-weight:800;margin:8px 0 14px;letter-spacing:-.01em}
-.dek{font-size:18px;color:#2c2c2a;margin-bottom:26px}
-.short{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 18px 12px;margin-bottom:14px}
-.short h2{font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
-.short h2 span{background:var(--yellow);padding:1px 5px}
-.short ol{padding-left:20px}
-.short li{margin-bottom:8px;font-size:16px}
-.early{display:inline-block;margin:6px 0 36px;color:var(--ink);font-weight:700;text-decoration:none;background:linear-gradient(transparent 62%,var(--yellow) 62%);padding:0 2px}
-.lesson{margin-bottom:34px}
-.lesson .n{font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}
-.lesson h2{font-size:22px;line-height:1.3;margin:4px 0 10px}
-.lesson p{margin-bottom:12px}
-.lesson strong{background:linear-gradient(transparent 70%,rgba(250,230,43,.7) 70%)}
-.today{border-left:4px solid var(--yellow);padding:4px 0 4px 14px;font-size:16px}
-hr{border:0;border-top:1px solid var(--line);margin:10px 0 34px}
-.close .k{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-.close h2{font-size:24px;margin:6px 0 10px}
-.close p{margin-bottom:18px}
-.btn{display:block;text-align:center;background:var(--ink);color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:16px 18px;border-radius:12px}
-.micro{display:block;text-align:center;font-size:13px;color:var(--muted);margin-top:10px}
-.disc{font-size:12px;color:var(--muted);margin-top:40px}
-.mock{width:200px;margin:6px auto 22px;border-radius:28px;background:var(--ink);padding:8px}
-.ms{background:#1b1b1a;border-radius:22px;padding:14px 12px 12px;color:#fff;font-size:11px}
-.ms .h{font-weight:800;letter-spacing:.1em;font-size:9px;color:var(--yellow);margin-bottom:10px}
-.ms .c{background:rgba(255,255,255,.07);border-radius:12px;padding:10px;margin-bottom:8px}
-.ms .t{font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:#b4b2a9}
-.ms .g{font-size:14px;font-weight:800;margin:3px 0}
-.ms .i{background:rgba(255,255,255,.1);border-radius:8px;padding:6px 8px;color:#d3d1c7;margin-top:6px}
-.ms .q{background:var(--yellow);color:var(--ink);border-radius:999px;padding:6px 10px;font-weight:700;display:inline-block}
-.sticky{position:fixed;left:12px;right:12px;bottom:12px;max-width:616px;margin:0 auto;background:var(--ink);color:#fff;border-radius:14px;padding:10px 10px 10px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;transform:translateY(140%);transition:transform .25s ease;z-index:50}
-.sticky.on{transform:none}
-.sticky span{font-size:13px;color:#d3d1c7}
-.sticky a{background:var(--yellow);color:var(--ink);font-weight:800;font-size:14px;text-decoration:none;padding:10px 14px;border-radius:10px;white-space:nowrap}
-@media(min-width:700px){h1{font-size:40px}.wrap{padding-top:48px}}
-</style>
 </head>
 <body>
 <main class="wrap">
-  <div class="brand"><span class="dot">R</span>Guía ReBoot</div>
-  <div class="meta">Lectura de 2 min · por Arie</div>
+  <div class="top"><div class="brand"><span class="dot">R</span>Guía ReBoot</div><span>Lectura de 2 min · por Arie</span></div>
   <h1>¿Bajón después de almorzar? Mira primero cómo está armado tu almuerzo.</h1>
   <p class="dek">El cansancio de la tarde puede tener varias causas. El plato es una de las más fáciles de ajustar, y no se trata de comer menos.</p>
   <section class="short"><h2><span>La versión corta</span></h2><ol><li>El bajón de la tarde puede venir de varias cosas: cómo dormiste, el ritmo natural de tu cuerpo y cuánto y qué comiste.</li><li>Un almuerzo suficiente, con base de proteína, vegetales o fibra y grasa cuando corresponda, suele sostener mejor la tarde que un plato casi solo de carbohidrato.</li><li>Unos minutos de movimiento después de comer es un ajuste simple que a muchas personas les ayuda.</li></ol></section>
   <a class="early" data-surface="early_link" href="https://app.rebootlifestyle.com/explora">¿Quieres revisar tu almuerzo de hoy? Pregúntale al Coach →</a>
-  <section class="lesson"><div class="n">1 de 3</div><h2>El bajón tiene más de una causa</h2><p>Es común sentir menos energía a primera hora de la tarde. Una parte es el <strong>ritmo natural del cuerpo</strong>: el estado de alerta tiende a bajar un poco después del mediodía. También influyen cómo dormiste, cuánta agua tomaste y el estrés del día. Y el almuerzo cuenta: cuánto comiste y cómo estaba armado. Tu reloj interno no lo puedes cambiar, pero el plato sí.</p><p class="today"><b>Hazlo hoy:</b> Esta semana, anota a qué hora te pega el bajón y qué almorzaste. Lo que buscas es un patrón.</p></section><section class="lesson"><div class="n">2 de 3</div><h2>Arma el plato con base</h2><p>Lo primero es <strong>comer suficiente</strong>: quedarte corto también te puede dejar sin energía. Después, una base: una proteína (huevo, pollo, pescado, legumbres, tofu), vegetales o algo con fibra, y grasa cuando corresponda (aguacate, aceite de oliva, nueces). El carbohidrato (arroz, pan, papa, pasta, tortilla) tiene su lugar; la idea es que acompañe a esa base y no sea el plato entero. <strong>Base, no ritual:</strong> no necesitas un orden exacto ni medir nada.</p><p class="today"><b>Hazlo hoy:</b> En tu próximo almuerzo, revisa si hay proteína y algo verde. Si falta uno, súmalo.</p></section><section class="lesson"><div class="n">3 de 3</div><h2>Unos minutos de movimiento</h2><p>Caminar un rato después de comer es de los ajustes más simples. No es ejercicio ni una forma de compensar lo que comiste: es moverte suave, a tu ritmo. A muchas personas les ayuda a sentirse más despiertas en la tarde.</p><p class="today"><b>Hazlo hoy:</b> Después de almorzar, 10 minutos a pie: una vuelta a la manzana, las escaleras o una llamada caminando.</p></section>
-  <hr>
+  <section class="lesson"><div class="n">1 de 3</div><h2>El bajón tiene más de una causa</h2><p>Es común sentir menos energía a primera hora de la tarde. Una parte es el <strong>ritmo natural del cuerpo</strong>: el estado de alerta tiende a bajar un poco después del mediodía. También influyen cómo dormiste, cuánta agua tomaste y el estrés del día. Y el almuerzo cuenta: cuánto comiste y cómo estaba armado. Tu reloj interno no lo puedes cambiar, pero el plato sí.</p><p class="today"><b>Hazlo hoy</b>Esta semana, anota a qué hora te pega el bajón y qué almorzaste. Lo que buscas es un patrón.</p></section><section class="lesson"><div class="n">2 de 3</div><h2>Arma el plato con base</h2><p>Lo primero es <strong>comer suficiente</strong>: quedarte corto también te puede dejar sin energía. Después, una base: una proteína (huevo, pollo, pescado, legumbres, tofu), vegetales o algo con fibra, y grasa cuando corresponda (aguacate, aceite de oliva, nueces). El carbohidrato (arroz, pan, papa, pasta, tortilla) tiene su lugar; la idea es que acompañe a esa base y no sea el plato entero. <strong>Base, no ritual:</strong> no necesitas un orden exacto ni medir nada.</p><p class="today"><b>Hazlo hoy</b>En tu próximo almuerzo, revisa si hay proteína y algo verde. Si falta uno, súmalo.</p></section><section class="lesson"><div class="n">3 de 3</div><h2>Unos minutos de movimiento</h2><p>Caminar un rato después de comer es de los ajustes más simples. No es ejercicio ni una forma de compensar lo que comiste: es moverte suave, a tu ritmo. A muchas personas les ayuda a sentirse más despiertas en la tarde.</p><p class="today"><b>Hazlo hoy</b>Después de almorzar, 10 minutos a pie: una vuelta a la manzana, las escaleras o una llamada caminando.</p></section>
   <section class="close" id="cierre">
     <div class="k">Para llevarlo a tu día</div>
     <h2>Tu almuerzo no es el de todos.</h2>
